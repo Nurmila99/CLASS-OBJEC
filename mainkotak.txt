@@ -1,0 +1,172 @@
+
+public class MainKotak {
+	public static void main(String[] args) {
+		Kotak kotakKuning = new Kotak();
+		
+		kotakKuning.setPanjang(8);
+		kotakKuning.setLebar(5);
+		
+		kotakKuning.hitungLuas();
+		kotakKuning.hitungKeliling();
+	
+		System.out.println("Panjang : " + kotakKuning.getPanjang());
+		System.out.println("Lebar : " + kotakKuning.getLebar());
+		System.out.println("LuasKotak : " + kotakKuning.getLuas());
+		System.out.println("KelilingKotak " + kotakKuning.getKeliling());
+		System.out.println("___________________________________________");
+	}
+
+}
+
+public class MainMahasiswa {
+	public static void main(String[] args) {
+		//Hasil Mahasiswa
+		Mahasiswa informatika = new Mahasiswa();
+		informatika.setNama("Nurmila");
+		informatika.setNim("D0217303");
+		informatika.setAlamat("Lembang");
+		informatika.setGolonganDarah("AB");
+		informatika.setStatus("Mahasiswa");
+		informatika.setTinggiBadan(148);
+		informatika.setBeratBadan(35);
+		
+		System.out.println("Nama : " + informatika.getNama());
+		System.out.println("Nim : " + informatika.getNim());
+		System.out.println("Alamat : " + informatika.getAlamat());
+		System.out.println("GolonganDarah : " + informatika.getGolonganDarah());
+		System.out.println("Status : " + informatika.getStatus());
+		System.out.println("TinggiBadan : " + informatika.getTinggiBadan());
+		System.out.println("BeratBadan : " + informatika.getBeratBadan());
+		System.out.println("---------------------------------------------");
+
+	}
+
+}
+
+
+public class NodeMain {
+	public static void main(String[] args) {
+		Node Nodeku = new Node();
+		
+		Nodeku.setLabel("Umur Nurmila");
+		Nodeku.setValue(20);
+		
+		System.out.println( Nodeku.getLabel());
+		System.out.println("Tahun : " + Nodeku.getValue());
+	}
+
+}
+
+
+public class StackMain {
+	public static void main(String[] args) {
+		Stack Stack1 = new Stack();
+		System.out.println("________________");
+		Stack1.Value[0] = "Nurmila Saharuna";
+		Stack1.Value[1] = "Nurmila Saharuna";
+		Stack1.Value[2] = "Nurmila Saharuna";
+		Stack1.Value[3] = "Nurmila Saharuna";
+		Stack1.Value[4] = "Nurmila Saharuna";
+		Stack1.Value[5] = "Nurmila Saharuna";
+		Stack1.Value[6] = "Nurmila Saharuna";
+		Stack1.Value[7] = "Nurmila Saharuna";
+		Stack1.Value[8] = "Nurmila Saharuna";
+		Stack1.Value[9] = "Nurmila Saharuna";
+		Stack1.Value[10] = "Nurmila Saharuna";
+		Stack1.Value[11] = "Nurmila Saharuna";
+		Stack1.Value[12] = "Nurmila Saharuna";
+		Stack1.Value[13] = "Nurmila Saharuna";
+		Stack1.Value[14] = "Nurmila Saharuna";
+		Stack1.Value[15] = "Nurmila Saharuna";
+		Stack1.Value[16] = "Nurmila Saharuna";
+		Stack1.Value[17] = "Nurmila Saharuna";
+		Stack1.Value[18] = "Nurmila Saharuna";
+		Stack1.Value[19] = "Nurmila Saharuna";
+		Stack1.Value[20] = "Nurmila Saharuna";
+		Stack1.Value[21] = "Nurmila Saharuna";
+		Stack1.Value[22] = "Nurmila Saharuna";
+		Stack1.Value[23] = "Nurmila Saharuna";
+		Stack1.Value[24] = "Nurmila Saharuna";
+		Stack1.Value[25] = "Nurmila Saharuna";
+		Stack1.Value[26] = "Nurmila Saharuna";
+		Stack1.Value[27] = "Nurmila Saharuna";
+		Stack1.Value[28] = "Nurmila Saharuna";
+		Stack1.Value[29] = "Nurmila Saharuna";
+		Stack1.Value[30] = "Nurmila Saharuna";
+		Stack1.Value[31] = "Nurmila Saharuna";
+		Stack1.Value[32] = "Nurmila Saharuna";
+		Stack1.Value[33] = "Nurmila Saharuna";
+		Stack1.Value[34] = "Nurmila Saharuna";
+		Stack1.Value[35] = "Nurmila Saharuna";
+		Stack1.Value[36] = "Nurmila Saharuna";
+		Stack1.Value[37] = "Nurmila Saharuna";
+		Stack1.Value[38] = "Nurmila Saharuna";
+		Stack1.Value[39] = "Nurmila Saharuna";
+		Stack1.Value[40] = "Nurmila Saharuna";
+		Stack1.Value[41] = "Nurmila Saharuna";
+		Stack1.Value[42] = "Nurmila Saharuna";
+		Stack1.Value[43] = "Nurmila Saharuna";
+		Stack1.Value[44] = "Nurmila Saharuna";
+		Stack1.Value[45] = "Nurmila Saharuna";
+		Stack1.Value[46] = "Nurmila Saharuna";
+		Stack1.Value[47] = "Nurmila Saharuna";
+		Stack1.Value[48] = "Nurmila Saharuna";
+		Stack1.Value[49] = "Nurmila Saharuna";
+		Stack1.Value[50] = "Nurmila Saharuna";
+		Stack1.Value[51] = "Nurmila Saharuna";
+		Stack1.Value[52] = "Nurmila Saharuna";
+		Stack1.Value[53] = "Nurmila Saharuna";
+		Stack1.Value[54] = "Nurmila Saharuna";
+		Stack1.Value[55] = "Nurmila Saharuna";
+		Stack1.Value[56] = "Nurmila Saharuna";
+		Stack1.Value[57] = "Nurmila Saharuna";
+		Stack1.Value[58] = "Nurmila Saharuna";
+		Stack1.Value[59] = "Nurmila Saharuna";
+		Stack1.Value[60] = "Nurmila Saharuna";
+		Stack1.Value[61] = "Nurmila Saharuna";
+		Stack1.Value[62] = "Nurmila Saharuna";
+		Stack1.Value[63] = "Nurmila Saharuna";
+		Stack1.Value[64] = "Nurmila Saharuna";
+		Stack1.Value[65] = "Nurmila Saharuna";
+		Stack1.Value[66] = "Nurmila Saharuna";
+		Stack1.Value[67] = "Nurmila Saharuna";
+		Stack1.Value[68] = "Nurmila Saharuna";
+		Stack1.Value[69] = "Nurmila Saharuna";
+		Stack1.Value[70] = "Nurmila Saharuna";
+		Stack1.Value[71] = "Nurmila Saharuna";
+		Stack1.Value[72] = "Nurmila Saharuna";
+		Stack1.Value[73] = "Nurmila Saharuna";
+		Stack1.Value[74] = "Nurmila Saharuna";
+		Stack1.Value[75] = "Nurmila Saharuna";
+		Stack1.Value[76] = "Nurmila Saharuna";
+		Stack1.Value[77] = "Nurmila Saharuna";
+		Stack1.Value[78] = "Nurmila Saharuna";
+		Stack1.Value[79] = "Nurmila Saharuna";
+		Stack1.Value[80] = "Nurmila Saharuna";
+		Stack1.Value[81] = "Nurmila Saharuna";
+		Stack1.Value[82] = "Nurmila Saharuna";
+		Stack1.Value[83] = "Nurmila Saharuna";
+		Stack1.Value[84] = "Nurmila Saharuna";
+		Stack1.Value[85] = "Nurmila Saharuna";
+		Stack1.Value[86] = "Nurmila Saharuna";
+		Stack1.Value[87] = "Nurmila Saharuna";
+		Stack1.Value[88] = "Nurmila Saharuna";
+		Stack1.Value[89] = "Nurmila Saharuna";
+		Stack1.Value[90] = "Nurmila Saharuna";
+		Stack1.Value[91] = "Nurmila Saharuna";
+		Stack1.Value[92] = "Nurmila Saharuna";
+		Stack1.Value[93] = "Nurmila Saharuna";
+		Stack1.Value[94] = "Nurmila Saharuna";
+		Stack1.Value[95] = "Nurmila Saharuna";
+		Stack1.Value[96] = "Nurmila Saharuna";
+		Stack1.Value[97] = "Nurmila Saharuna";
+		Stack1.Value[98] = "Nurmila Saharuna";
+		Stack1.Value[99] = "Nurmila Saharuna";
+	
+		Stack1.setValueAt(7, "Nurmila");
+		for(int i=0;i<Stack1.Value.length;i++)
+		{System.out.println(Stack1.Value[i]);};
+	}
+
+}
+
